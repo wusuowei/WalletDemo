@@ -1,0 +1,112 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.xingshulin.TestPassKit",
+  "serialNumber" : "nmyuxofgna",
+  "teamIdentifier" : "F87ZAB3JQF",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "relevantDate" : "2011-12-08T13:00-08:00",
+  "locations" : [
+    {
+      "longitude" : -122.3748889,
+      "latitude" : 37.6189722
+    },
+    {
+      "longitude" : -122.03118,
+      "latitude" : 37.33182
+    }
+  ],
+  "barcode" : {
+    "altText" : "订单号：123456",
+    "message" : "123456789",
+    "format" : "PKBarcodeFormatAztec",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "Apple Inc.",
+  "description" : "Apple Event Ticket",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(60, 65, 76)",
+  "eventTicket" : {
+    "primaryFields" : [
+      {
+        "key" : "filmName",
+        "label" : "影片",
+        "value" : "加勒比海盗5：死无对证",
+        "textAlignment" : "PKTextAlignmentNatural"
+      }
+    ],
+	"secondaryFields" : [
+      {
+        "key" : "orderNumber",
+        "label" : "订单号",
+        "value" : "4901234",
+        "textAlignment" : "PKTextAlignmentLeft"
+      },
+      {
+        "key" : "verificationNumber",
+        "label" : "验证码",
+        "value" : "123456",
+        "textAlignment" : "PKTextAlignmentRight"
+      }
+    ],
+  "auxiliaryFields" : [
+      {
+        "key" : "site",
+        "label" : "影院",
+        "value" : "大地电影院",
+        "textAlignment" : "PKTextAlignmentLeft"
+      },
+      {
+        "key" : "order",
+        "label" : "场次",
+        "value" : "2017-06-10T10:00-05:00",
+        "textAlignment" : "PKTextAlignmentCenter"
+      },
+      {
+        "key" : "seat",
+        "label" : "座位",
+        "value" : "5-5,5-6",
+        "textAlignment" : "PKTextAlignmentRight"
+      }
+    ],
+    "backFields" : [
+      {
+        "numberStyle" : "PKNumberStyleSpellOut",
+        "label" : "spelled out",
+        "key" : "numberStyle",
+        "value" : 200
+      },
+      {
+        "label" : "in Reals",
+        "key" : "currency",
+        "value" : 200,
+        "currencyCode" : "BRL"
+      },
+      {
+        "dateStyle" : "PKDateStyleFull",
+        "label" : "full date",
+        "key" : "dateFull",
+        "value" : "1980-05-07T10:00-05:00"
+      },
+      {
+        "label" : "full time",
+        "key" : "timeFull",
+        "value" : "1980-05-07T10:00-05:00",
+        "timeStyle" : "PKDateStyleFull"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "short date and time",
+        "key" : "dateTime",
+        "value" : "1980-05-07T10:00-05:00"
+      },
+      {
+        "dateStyle" : "PKDateStyleShort",
+        "label" : "relative date",
+        "key" : "relStyle",
+        "value" : "2013-04-24T10:00-05:00",
+        "isRelative" : true
+      }
+    ]
+  }
+}

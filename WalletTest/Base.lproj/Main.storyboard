@@ -21,12 +21,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHw-Tv-r9E">
-                                <rect key="frame" x="135" y="293" width="104" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Med-fT-eD9">
+                                <rect key="frame" x="0.0" y="70" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="显示Wallet凭证"/>
+                                <state key="normal" title="登机牌"/>
                                 <connections>
-                                    <action selector="showWalletPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fvZ-6a-pO4"/>
+                                    <action selector="showBoardingPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M1H-ii-Gmg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHw-Tv-r9E">
+                                <rect key="frame" x="0.0" y="136" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="打折券"/>
+                                <connections>
+                                    <action selector="showCouponPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xuT-vJ-aU9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5P-qF-hp2">
+                                <rect key="frame" x="0.0" y="203" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="电影票"/>
+                                <connections>
+                                    <action selector="showFilmTicketPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X13-b4-jHQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvt-rb-c1g">
+                                <rect key="frame" x="0.0" y="270" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="通用"/>
+                                <connections>
+                                    <action selector="showGenericPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kE2-WW-xzI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLW-yW-KWv">
+                                <rect key="frame" x="0.0" y="338" width="375" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="购物卡"/>
+                                <connections>
+                                    <action selector="showStoreCardPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vba-ig-z7I"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,6 +67,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>

@@ -11,18 +11,46 @@ import PassKit
 
 class ViewController: UIViewController {
 
-    var passToAdd: PKPass?
+    var passToAdd = PKPass()
+    var passIsAdded = false
+    let passLibrary = PKPassLibrary()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        //MARK:必须监听初始化的PKPassLibrary，不然收不到通知
+        NotificationCenter.default.addObserver(self, selector: #selector(passChanged(_ :)), name: NSNotification.Name(rawValue: PKPassLibraryNotificationName.PKPassLibraryDidChange.rawValue), object: passLibrary)
     }
 
-    @IBAction func showWalletPass(_ sender: Any) {
+    func passChanged(_ notification: Notification) {
+        guard let serialNumberUserInfoKey = notification.userInfo?[PKPassLibraryNotificationKey.serialNumberUserInfoKey] as? String else {
+            return
+        }
+        passIsAdded = serialNumberUserInfoKey == passToAdd.serialNumber
+    }
+
+    @IBAction func showBoardingPass(_ sender: UIButton) {
+        showWalletPass(fileName: "BoardingPass")
+    }
+    @IBAction func showCouponPass(_ sender: UIButton) {
+        showWalletPass(fileName: "Coupon")
+    }
+    @IBAction func showFilmTicketPass(_ sender: UIButton) {
+        showWalletPass(fileName: "Event")
+    }
+    @IBAction func showGenericPass(_ sender: Any) {
+        showWalletPass(fileName: "Generic")
+    }
+    @IBAction func showStoreCardPass(_ sender: Any) {
+        showWalletPass(fileName: "StoreCard")
+    }
+
+    func showWalletPass(fileName: String) {
         guard PKPassLibrary.isPassLibraryAvailable() else {
             showAlert(message: "您的设备不支持Wallet")
             return
         }
-        guard let fileUrl = Bundle.main.url(forResource: "Lollipop", withExtension: "pkpass") else {
+        guard let fileUrl = Bundle.main.url(forResource: fileName, withExtension: "pkpass") else {
             showAlert(message: "未找到票据凭证")
             return
         }
@@ -44,6 +72,10 @@ class ViewController: UIViewController {
     }
 
     func showPass(pass: PKPass) {
+        if passLibrary.containsPass(pass) {
+            showAlert(message: "凭证已添加")
+            return
+        }
         passToAdd = pass
         let addPassVc = PKAddPassesViewController(pass: pass)
         addPassVc.delegate = self
@@ -61,8 +93,11 @@ class ViewController: UIViewController {
     }
 
     func showLookAlert(message: String) {
+        guard passLibrary.containsPass(passToAdd) else {
+            return
+        }
         let actionConfirm = UIAlertAction.init(title: "立即查看", style: UIAlertActionStyle.default) { [weak self] _ in
-            guard let passURL = self?.passToAdd?.passURL else {
+            guard let passURL = self?.passToAdd.passURL else {
                 return
             }
             if UIApplication.shared.canOpenURL(passURL) {
@@ -84,8 +119,12 @@ class ViewController: UIViewController {
 
 extension ViewController: PKAddPassesViewControllerDelegate {
     func addPassesViewControllerDidFinish(_ controller: PKAddPassesViewController) {
+
         controller.dismiss(animated: true) { [weak self] in
-            self?.showLookAlert(message: "添加完成")
+            guard let strongSelf = self else {
+                return
+            }
+            strongSelf.showLookAlert(message: "添加完成")
         }
     }
 }
