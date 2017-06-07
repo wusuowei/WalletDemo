@@ -14,7 +14,7 @@
 		C5CBBD811EE77A160095C557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBD7F1EE77A160095C557 /* LaunchScreen.storyboard */; };
 		C5CBBD8C1EE77A160095C557 /* WalletTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CBBD8B1EE77A160095C557 /* WalletTestTests.swift */; };
 		C5CBBD971EE77A160095C557 /* WalletTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CBBD961EE77A160095C557 /* WalletTestUITests.swift */; };
-		C5CBBDA71EE7951A0095C557 /* Lollipop.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDA61EE7951A0095C557 /* Lollipop.pkpass */; };
+		C5CBBDA91EE7A30A0095C557 /* Lollipop.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDA81EE7A30A0095C557 /* Lollipop.pkpass */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		C5CBBD921EE77A160095C557 /* WalletTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CBBD961EE77A160095C557 /* WalletTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTestUITests.swift; sourceTree = "<group>"; };
 		C5CBBD981EE77A160095C557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CBBDA61EE7951A0095C557 /* Lollipop.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lollipop.pkpass; sourceTree = "<group>"; };
+		C5CBBDA81EE7A30A0095C557 /* Lollipop.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lollipop.pkpass; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +131,7 @@
 		C5CBBDA41EE77BE80095C557 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C5CBBDA81EE7A30A0095C557 /* Lollipop.pkpass */,
 				C5CBBDA51EE77BE80095C557 /* Lollipop.pass */,
 			);
 			path = Resources;
@@ -139,7 +140,6 @@
 		C5CBBDA51EE77BE80095C557 /* Lollipop.pass */ = {
 			isa = PBXGroup;
 			children = (
-				C5CBBDA61EE7951A0095C557 /* Lollipop.pkpass */,
 			);
 			path = Lollipop.pass;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			files = (
 				C5CBBD811EE77A160095C557 /* LaunchScreen.storyboard in Resources */,
 				C5CBBD7E1EE77A160095C557 /* Assets.xcassets in Resources */,
-				C5CBBDA71EE7951A0095C557 /* Lollipop.pkpass in Resources */,
+				C5CBBDA91EE7A30A0095C557 /* Lollipop.pkpass in Resources */,
 				C5CBBD7C1EE77A160095C557 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
