@@ -6,6 +6,7 @@
   "webServiceURL" : "https://example.com/passes/",
   "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
   "relevantDate" : "2011-12-08T13:00-08:00",
+  "associatedStoreIdentifiers" : [728326385],
   "locations" : [
     {
       "longitude" : -122.3748889,
@@ -19,13 +20,21 @@
   "barcode" : {
     "altText" : "订单号：123456",
     "message" : "123456789",
-    "format" : "PKBarcodeFormatAztec",
+    "format" : "PKBarcodeFormatQR",
     "messageEncoding" : "iso-8859-1"
   },
   "organizationName" : "Apple Inc.",
   "description" : "Apple Event Ticket",
   "foregroundColor" : "rgb(255, 255, 255)",
   "backgroundColor" : "rgb(60, 65, 76)",
+  "headerFields" : [
+    {
+      "key" : "filmName",
+      "label" : "影片",
+      "value" : "加勒比海盗5：死无对证",
+      "textAlignment" : "PKTextAlignmentNatural"
+    }
+  ],
   "eventTicket" : {
     "primaryFields" : [
       {

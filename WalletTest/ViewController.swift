@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //MARK:必须监听初始化的PKPassLibrary，不然收不到通知
+        //MARK:Updating a pass is a cooperative effort between the user’s device, Apple’s servers, and your servers. At a high level, it consists of the following steps, shown in Figure 6-1:必须监听初始化的PKPassLibrary，不然收不到通知
         NotificationCenter.default.addObserver(self, selector: #selector(passChanged(_ :)), name: NSNotification.Name(rawValue: PKPassLibraryNotificationName.PKPassLibraryDidChange.rawValue), object: passLibrary)
     }
 
