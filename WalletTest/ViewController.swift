@@ -46,7 +46,10 @@ class ViewController: UIViewController {
         showWalletPass(fileName: "StoreCard")
     }
     @IBAction func showAddWalletButton(_ sender: Any) {
-        addPassButton.removeFromSuperview()
+        guard !view.subviews.contains(addPassButton) else {
+            addPassButton.removeFromSuperview()
+            return
+        }
         addPassButton = PKAddPassButton.init(style: .black)
         addPassButton.center = CGPoint(x: view.center.x, y: view.frame.size.height - 100)
         addPassButton.addTarget(self, action: #selector(showFilmTicketPass(_:)), for: UIControlEvents.touchUpInside)

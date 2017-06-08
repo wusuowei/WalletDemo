@@ -64,7 +64,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcT-7t-l9U">
                                 <rect key="frame" x="0.0" y="397" width="375" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="显示Add to Wallet Button"/>
+                                <state key="normal" title="显示/隐藏Add to Wallet Button"/>
                                 <connections>
                                     <action selector="showAddWalletButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caf-7Q-5OM"/>
                                 </connections>
