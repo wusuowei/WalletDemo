@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WalletTest/ViewController.swift"
-            timestampString = "518541502.321723"
+            timestampString = "518586498.703249"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "passChanged(_:)"
             landmarkType = "7">
          </BreakpointContent>
