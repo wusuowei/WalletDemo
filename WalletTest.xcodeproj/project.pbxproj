@@ -14,43 +14,10 @@
 		C5CBBD811EE77A160095C557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBD7F1EE77A160095C557 /* LaunchScreen.storyboard */; };
 		C5CBBD8C1EE77A160095C557 /* WalletTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CBBD8B1EE77A160095C557 /* WalletTestTests.swift */; };
 		C5CBBD971EE77A160095C557 /* WalletTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CBBD961EE77A160095C557 /* WalletTestUITests.swift */; };
-		C5CBBDD61EE7C1990095C557 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDAC1EE7C1990095C557 /* icon.png */; };
-		C5CBBDD71EE7C1990095C557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDAD1EE7C1990095C557 /* icon@2x.png */; };
-		C5CBBDD81EE7C1990095C557 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDAE1EE7C1990095C557 /* logo.png */; };
-		C5CBBDD91EE7C1990095C557 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDAF1EE7C1990095C557 /* logo@2x.png */; };
-		C5CBBDDA1EE7C1990095C557 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB01EE7C1990095C557 /* pass.json */; };
 		C5CBBDDB1EE7C1990095C557 /* BoardingPass.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB11EE7C1990095C557 /* BoardingPass.pkpass */; };
-		C5CBBDDC1EE7C1990095C557 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB31EE7C1990095C557 /* icon.png */; };
-		C5CBBDDD1EE7C1990095C557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB41EE7C1990095C557 /* icon@2x.png */; };
-		C5CBBDDE1EE7C1990095C557 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB51EE7C1990095C557 /* logo.png */; };
-		C5CBBDDF1EE7C1990095C557 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB61EE7C1990095C557 /* logo@2x.png */; };
-		C5CBBDE01EE7C1990095C557 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB71EE7C1990095C557 /* pass.json */; };
 		C5CBBDE11EE7C1990095C557 /* Coupon.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDB81EE7C1990095C557 /* Coupon.pkpass */; };
-		C5CBBDE21EE7C1990095C557 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBA1EE7C1990095C557 /* background.png */; };
-		C5CBBDE31EE7C1990095C557 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBB1EE7C1990095C557 /* background@2x.png */; };
-		C5CBBDE41EE7C1990095C557 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBC1EE7C1990095C557 /* icon.png */; };
-		C5CBBDE51EE7C1990095C557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBD1EE7C1990095C557 /* icon@2x.png */; };
-		C5CBBDE61EE7C1990095C557 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBE1EE7C1990095C557 /* logo.png */; };
-		C5CBBDE71EE7C1990095C557 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDBF1EE7C1990095C557 /* logo@2x.png */; };
-		C5CBBDE81EE7C1990095C557 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC01EE7C1990095C557 /* pass.json */; };
-		C5CBBDE91EE7C1990095C557 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC11EE7C1990095C557 /* thumbnail.png */; };
-		C5CBBDEA1EE7C1990095C557 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC21EE7C1990095C557 /* thumbnail@2x.png */; };
 		C5CBBDEB1EE7C1990095C557 /* Event.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC31EE7C1990095C557 /* Event.pkpass */; };
-		C5CBBDEC1EE7C1990095C557 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC51EE7C1990095C557 /* icon.png */; };
-		C5CBBDED1EE7C1990095C557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC61EE7C1990095C557 /* icon@2x.png */; };
-		C5CBBDEE1EE7C1990095C557 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC71EE7C1990095C557 /* logo.png */; };
-		C5CBBDEF1EE7C1990095C557 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC81EE7C1990095C557 /* logo@2x.png */; };
-		C5CBBDF01EE7C1990095C557 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDC91EE7C1990095C557 /* pass.json */; };
-		C5CBBDF11EE7C1990095C557 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDCA1EE7C1990095C557 /* thumbnail.png */; };
-		C5CBBDF21EE7C1990095C557 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDCB1EE7C1990095C557 /* thumbnail@2x.png */; };
 		C5CBBDF31EE7C1990095C557 /* Generic.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDCC1EE7C1990095C557 /* Generic.pkpass */; };
-		C5CBBDF41EE7C1990095C557 /* signpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDCD1EE7C1990095C557 /* signpass */; };
-		C5CBBDF51EE7C1990095C557 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDCF1EE7C1990095C557 /* icon.png */; };
-		C5CBBDF61EE7C1990095C557 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD01EE7C1990095C557 /* icon@2x.png */; };
-		C5CBBDF71EE7C1990095C557 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD11EE7C1990095C557 /* logo.png */; };
-		C5CBBDF81EE7C1990095C557 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD21EE7C1990095C557 /* pass.json */; };
-		C5CBBDF91EE7C1990095C557 /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD31EE7C1990095C557 /* strip.png */; };
-		C5CBBDFA1EE7C1990095C557 /* strip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD41EE7C1990095C557 /* strip@2x.png */; };
 		C5CBBDFB1EE7C1990095C557 /* StoreCard.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = C5CBBDD51EE7C1990095C557 /* StoreCard.pkpass */; };
 /* End PBXBuildFile section */
 
@@ -85,43 +52,10 @@
 		C5CBBD921EE77A160095C557 /* WalletTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CBBD961EE77A160095C557 /* WalletTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTestUITests.swift; sourceTree = "<group>"; };
 		C5CBBD981EE77A160095C557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CBBDAC1EE7C1990095C557 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C5CBBDAD1EE7C1990095C557 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C5CBBDAE1EE7C1990095C557 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		C5CBBDAF1EE7C1990095C557 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		C5CBBDB01EE7C1990095C557 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
 		C5CBBDB11EE7C1990095C557 /* BoardingPass.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoardingPass.pkpass; sourceTree = "<group>"; };
-		C5CBBDB31EE7C1990095C557 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C5CBBDB41EE7C1990095C557 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C5CBBDB51EE7C1990095C557 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		C5CBBDB61EE7C1990095C557 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		C5CBBDB71EE7C1990095C557 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
 		C5CBBDB81EE7C1990095C557 /* Coupon.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coupon.pkpass; sourceTree = "<group>"; };
-		C5CBBDBA1EE7C1990095C557 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		C5CBBDBB1EE7C1990095C557 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
-		C5CBBDBC1EE7C1990095C557 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C5CBBDBD1EE7C1990095C557 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C5CBBDBE1EE7C1990095C557 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		C5CBBDBF1EE7C1990095C557 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		C5CBBDC01EE7C1990095C557 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
-		C5CBBDC11EE7C1990095C557 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
-		C5CBBDC21EE7C1990095C557 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		C5CBBDC31EE7C1990095C557 /* Event.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Event.pkpass; sourceTree = "<group>"; };
-		C5CBBDC51EE7C1990095C557 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C5CBBDC61EE7C1990095C557 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C5CBBDC71EE7C1990095C557 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		C5CBBDC81EE7C1990095C557 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		C5CBBDC91EE7C1990095C557 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
-		C5CBBDCA1EE7C1990095C557 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
-		C5CBBDCB1EE7C1990095C557 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		C5CBBDCC1EE7C1990095C557 /* Generic.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Generic.pkpass; sourceTree = "<group>"; };
-		C5CBBDCD1EE7C1990095C557 /* signpass */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = signpass; sourceTree = "<group>"; };
-		C5CBBDCF1EE7C1990095C557 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		C5CBBDD01EE7C1990095C557 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		C5CBBDD11EE7C1990095C557 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		C5CBBDD21EE7C1990095C557 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
-		C5CBBDD31EE7C1990095C557 /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
-		C5CBBDD41EE7C1990095C557 /* strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strip@2x.png"; sourceTree = "<group>"; };
 		C5CBBDD51EE7C1990095C557 /* StoreCard.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreCard.pkpass; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,86 +147,13 @@
 		C5CBBDAA1EE7C1990095C557 /* Passes */ = {
 			isa = PBXGroup;
 			children = (
-				C5CBBDAB1EE7C1990095C557 /* BoardingPass.pass */,
 				C5CBBDB11EE7C1990095C557 /* BoardingPass.pkpass */,
-				C5CBBDB21EE7C1990095C557 /* Coupon.pass */,
 				C5CBBDB81EE7C1990095C557 /* Coupon.pkpass */,
-				C5CBBDB91EE7C1990095C557 /* Event.pass */,
 				C5CBBDC31EE7C1990095C557 /* Event.pkpass */,
-				C5CBBDC41EE7C1990095C557 /* Generic.pass */,
 				C5CBBDCC1EE7C1990095C557 /* Generic.pkpass */,
-				C5CBBDCD1EE7C1990095C557 /* signpass */,
-				C5CBBDCE1EE7C1990095C557 /* StoreCard.pass */,
 				C5CBBDD51EE7C1990095C557 /* StoreCard.pkpass */,
 			);
 			path = Passes;
-			sourceTree = "<group>";
-		};
-		C5CBBDAB1EE7C1990095C557 /* BoardingPass.pass */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBBDAC1EE7C1990095C557 /* icon.png */,
-				C5CBBDAD1EE7C1990095C557 /* icon@2x.png */,
-				C5CBBDAE1EE7C1990095C557 /* logo.png */,
-				C5CBBDAF1EE7C1990095C557 /* logo@2x.png */,
-				C5CBBDB01EE7C1990095C557 /* pass.json */,
-			);
-			path = BoardingPass.pass;
-			sourceTree = "<group>";
-		};
-		C5CBBDB21EE7C1990095C557 /* Coupon.pass */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBBDB31EE7C1990095C557 /* icon.png */,
-				C5CBBDB41EE7C1990095C557 /* icon@2x.png */,
-				C5CBBDB51EE7C1990095C557 /* logo.png */,
-				C5CBBDB61EE7C1990095C557 /* logo@2x.png */,
-				C5CBBDB71EE7C1990095C557 /* pass.json */,
-			);
-			path = Coupon.pass;
-			sourceTree = "<group>";
-		};
-		C5CBBDB91EE7C1990095C557 /* Event.pass */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBBDBA1EE7C1990095C557 /* background.png */,
-				C5CBBDBB1EE7C1990095C557 /* background@2x.png */,
-				C5CBBDBC1EE7C1990095C557 /* icon.png */,
-				C5CBBDBD1EE7C1990095C557 /* icon@2x.png */,
-				C5CBBDBE1EE7C1990095C557 /* logo.png */,
-				C5CBBDBF1EE7C1990095C557 /* logo@2x.png */,
-				C5CBBDC01EE7C1990095C557 /* pass.json */,
-				C5CBBDC11EE7C1990095C557 /* thumbnail.png */,
-				C5CBBDC21EE7C1990095C557 /* thumbnail@2x.png */,
-			);
-			path = Event.pass;
-			sourceTree = "<group>";
-		};
-		C5CBBDC41EE7C1990095C557 /* Generic.pass */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBBDC51EE7C1990095C557 /* icon.png */,
-				C5CBBDC61EE7C1990095C557 /* icon@2x.png */,
-				C5CBBDC71EE7C1990095C557 /* logo.png */,
-				C5CBBDC81EE7C1990095C557 /* logo@2x.png */,
-				C5CBBDC91EE7C1990095C557 /* pass.json */,
-				C5CBBDCA1EE7C1990095C557 /* thumbnail.png */,
-				C5CBBDCB1EE7C1990095C557 /* thumbnail@2x.png */,
-			);
-			path = Generic.pass;
-			sourceTree = "<group>";
-		};
-		C5CBBDCE1EE7C1990095C557 /* StoreCard.pass */ = {
-			isa = PBXGroup;
-			children = (
-				C5CBBDCF1EE7C1990095C557 /* icon.png */,
-				C5CBBDD01EE7C1990095C557 /* icon@2x.png */,
-				C5CBBDD11EE7C1990095C557 /* logo.png */,
-				C5CBBDD21EE7C1990095C557 /* pass.json */,
-				C5CBBDD31EE7C1990095C557 /* strip.png */,
-				C5CBBDD41EE7C1990095C557 /* strip@2x.png */,
-			);
-			path = StoreCard.pass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,47 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5CBBDDE1EE7C1990095C557 /* logo.png in Resources */,
-				C5CBBDE71EE7C1990095C557 /* logo@2x.png in Resources */,
-				C5CBBDF21EE7C1990095C557 /* thumbnail@2x.png in Resources */,
-				C5CBBDEC1EE7C1990095C557 /* icon.png in Resources */,
 				C5CBBDE11EE7C1990095C557 /* Coupon.pkpass in Resources */,
-				C5CBBDF81EE7C1990095C557 /* pass.json in Resources */,
-				C5CBBDF11EE7C1990095C557 /* thumbnail.png in Resources */,
-				C5CBBDEA1EE7C1990095C557 /* thumbnail@2x.png in Resources */,
-				C5CBBDE21EE7C1990095C557 /* background.png in Resources */,
 				C5CBBDDB1EE7C1990095C557 /* BoardingPass.pkpass in Resources */,
 				C5CBBD811EE77A160095C557 /* LaunchScreen.storyboard in Resources */,
-				C5CBBDD91EE7C1990095C557 /* logo@2x.png in Resources */,
-				C5CBBDD61EE7C1990095C557 /* icon.png in Resources */,
-				C5CBBDF71EE7C1990095C557 /* logo.png in Resources */,
-				C5CBBDE01EE7C1990095C557 /* pass.json in Resources */,
 				C5CBBD7E1EE77A160095C557 /* Assets.xcassets in Resources */,
-				C5CBBDFA1EE7C1990095C557 /* strip@2x.png in Resources */,
-				C5CBBDE51EE7C1990095C557 /* icon@2x.png in Resources */,
-				C5CBBDE81EE7C1990095C557 /* pass.json in Resources */,
 				C5CBBDFB1EE7C1990095C557 /* StoreCard.pkpass in Resources */,
-				C5CBBDDD1EE7C1990095C557 /* icon@2x.png in Resources */,
-				C5CBBDE61EE7C1990095C557 /* logo.png in Resources */,
-				C5CBBDEE1EE7C1990095C557 /* logo.png in Resources */,
-				C5CBBDE31EE7C1990095C557 /* background@2x.png in Resources */,
-				C5CBBDF51EE7C1990095C557 /* icon.png in Resources */,
 				C5CBBDEB1EE7C1990095C557 /* Event.pkpass in Resources */,
-				C5CBBDE41EE7C1990095C557 /* icon.png in Resources */,
-				C5CBBDF61EE7C1990095C557 /* icon@2x.png in Resources */,
-				C5CBBDDC1EE7C1990095C557 /* icon.png in Resources */,
-				C5CBBDED1EE7C1990095C557 /* icon@2x.png in Resources */,
-				C5CBBDDA1EE7C1990095C557 /* pass.json in Resources */,
-				C5CBBDF91EE7C1990095C557 /* strip.png in Resources */,
-				C5CBBDF41EE7C1990095C557 /* signpass in Resources */,
-				C5CBBDD81EE7C1990095C557 /* logo.png in Resources */,
-				C5CBBDEF1EE7C1990095C557 /* logo@2x.png in Resources */,
-				C5CBBDE91EE7C1990095C557 /* thumbnail.png in Resources */,
-				C5CBBDDF1EE7C1990095C557 /* logo@2x.png in Resources */,
-				C5CBBDF01EE7C1990095C557 /* pass.json in Resources */,
 				C5CBBDF31EE7C1990095C557 /* Generic.pkpass in Resources */,
 				C5CBBD7C1EE77A160095C557 /* Main.storyboard in Resources */,
-				C5CBBDD71EE7C1990095C557 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
